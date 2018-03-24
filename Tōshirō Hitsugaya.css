@@ -1,0 +1,478 @@
+//META{"name":"Tōshirō Hitsugaya","description":" A cool anime guy ","author":"Mystery","version":"1.2.4"}*//
+
+
+
+.layer {
+    background: none !important;
+    /* background: rgba(0, 0, 0, 0.2) !important; */
+}
+
+/* Settings Image */
+.ui-standard-sidebar-view {
+    background: url(https://i.imgur.com/2uzddE1.gif) !important;
+    background-size: cover !important;
+}
+
+.sidebar-region, .content-region {
+    background: none !important;
+}
+
+.layers, .appMount-14L89u, .layer-kosS71, .layers-20RVFW {
+    background: none !important;
+}
+
+
+body {
+    /*background: url(https://i.imgur.com/a8OzUOK.gif) !important;*/
+    background: url(https://i.imgur.com/a8OzUOK.gif) !important;
+    background-size: cover !important;
+    height: 100vh !important;
+    background-repeat: no-repeat !important;
+}
+
+.guilds-wrapper {
+    background: none !important;
+}
+
+.private-channels, .search-bar {
+    background: none !important;
+}
+
+#friends, .friends-header, .friends-table {
+    background: none !important;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+	border:none !important;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgb(91, 187, 255), rgba(0, 0, 0, 0)) !important;
+}
+
+
+.scroller::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(91, 187, 255, 0.4) 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, rgba(91, 187, 255, 0.4) 100%) !important;
+}
+
+
+.scroller::-webkit-scrollbar {
+    width: 7px !important;
+}
+
+
+.scroller::-webkit-scrollbar-track-piece {
+	border: none !important;
+	background: none !important;
+}
+
+
+
+.channels-wrap, .flex-lFgbSz {
+	background: none !important;
+}
+
+
+
+.content, .chat, .messages-wrapper, .scroller-fzNley, form, .channels-3g2vYe {
+    background: none !important;
+}
+
+
+
+.contentSelectedText-3j5CXt {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(41, 137, 216, 0.4)) !important;
+}
+
+
+.contentSelectedText-3j5CXt:hover {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(41, 137, 216, 0.4)) !important;
+}
+
+
+.contentHoveredText-2HYGIY {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
+}
+
+
+
+.unread-23Kvxk {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    height: 1px;
+    width: 90%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(91, 187, 255), rgba(0, 0, 0, 0));
+    opacity: 1 !important;
+    animation: unread 3s ease-out infinite !important;
+}
+
+.guild.unread:before {
+    background: rgba(91, 187, 255, 0.7) !important;
+    animation: unread 3s ease-out infinite !important;
+}
+
+
+
+.wrapper-2xO9RX, .badge {
+    background: rgb(41, 137, 216);
+    animation: mentions 3s infinite !important;
+}
+
+
+
+.new-messages-indicator {
+    background: linear-gradient(90deg, black, rgb(91, 187, 255), black) !important;
+}
+
+.new-messages-bar {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+
+.innerEnabled-gLHeOL, .innerEnabledNoAttach-36PpAk {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+.innerDisabled-1hSPu_ {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(91, 187, 255, 0.2), rgba(0, 0, 0, 0.2)) !important;
+}
+
+.jump-to-present-bar {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+
+.divider.divider-red:before {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+.divider.divider-red > div {
+    background: none !important;
+}
+
+
+.divider.divider-red > span {
+    background: rgb(11, 107, 186) !important;
+    color: rgb(91, 187, 255) !important;
+    animation: mentions 3s infinite !important;
+}
+
+
+.divider:before {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+.divider > div {
+    background: none !important;
+}
+
+
+.divider > span {
+    background: rgb(68, 94, 115) !important;
+    color: rgb(91, 187, 255) !important;
+}
+
+
+
+.loading-more {
+    border: none !important;
+    background: none !important;
+}
+
+
+.has-more > button {
+    color: rgb(91, 187, 255) !important;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+
+.mentioned > .body > .message-text {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.4) 0%, rgba(0, 0, 0, 0) 70%) !important;
+}
+
+
+.mentioned > .body > .message-text:after {
+    background: rgb(41, 137, 216) !important;
+    border-color: rgb(41, 137, 216) !important;
+}
+
+
+
+.hljs {
+    background:  rgba(91, 187, 255, 0.2) !important;
+    border: 1px solid rgba(91, 187, 255, 0.4) !important;
+    border-radius: 5px !important;
+}
+
+
+.markup > pre {
+    background: none !important;
+    border: none !important;
+}
+.inline
+{
+    background:  rgba(1, 97, 165) !important;
+}
+
+
+
+.btn-friends > a {
+    background: none !important;
+    border: 2px solid rgba(41, 137, 216, 0.3) !important;
+}
+
+
+.btn-friends.selected > a {
+    background: none !important;
+    border: 2px solid rgba(101, 197, 276, 0.5) !important;
+}
+
+.channel.private > a:hover {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
+}
+
+.friends-row:hover {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
+}
+
+
+
+.friends-action {
+    background-color: rgb(41, 137, 216) !important;
+}
+
+
+
+.tab-bar-item.selected, .tab-bar-item-primary {
+    background: rgb(41, 137, 216) !important;
+}
+
+
+
+.channel.selected.private > a {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(41, 137, 216, 0.4)) !important;
+}
+
+
+.channel.selected.private > a:hover {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(41, 137, 216, 0.4)) !important;
+}
+
+
+
+.headerNormal-1cioxU {
+    background: rgb(41, 137, 216) !important;
+}
+
+
+.avatar-1BXaQj {
+    border-color: rgb(101, 197, 255) !important;
+}
+
+
+.body-3rkFrF {
+    background: rgb(60, 60, 60) !important;
+    box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.2) !important;
+    border: none !important;
+}
+
+
+.footer-2J5zqP {
+    background: rgb(60, 60, 60) !important;
+}
+
+
+.note > textarea:focus {
+    background: rgb(60, 60, 60) !important;
+}
+
+
+
+.friends-icon {
+    background-color: rgb(1, 97, 176) !important;
+}
+
+
+.friends-icon:hover {
+    background-color: rgb(41, 137, 216) !important;
+}
+
+
+
+.modal-3HOjGZ {
+    background-color: rgb(41, 137, 216) !important;
+}
+
+/* Some Popout Menu */
+.menu-3BZuDT {
+    background-color: rgb(41, 137, 216) !important;
+}
+.item-rK1j5B {
+    color: white !important;
+    transition: 0.4s !important;
+}
+.item-rK1j5B:hover {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+.item-rK1j5B.invite-YM1l0n {
+    color: rgb(91, 187, 255) !important;
+}
+.item-rK1j5B.leave-2bjeRM {
+    color: rgb(255, 97, 31) !important;
+}
+.icon-3ICDZz {
+    background-color: white !important;
+    border-radius: 5px !important;
+    border: 3px solid white !important;
+}
+.separator-1hpa3S {
+    display: none !important;
+}
+/* Ends Here */
+
+
+
+.channel-members > .member:hover {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
+}
+
+
+
+.buttonBrandFilledDefault-2Rs6u5
+{
+    background-color: rgb(41, 137, 216) !important;
+}
+
+.buttonPrimaryOutlinedDefault--H0hhk
+{
+    border-color: rgb(41, 137, 216) !important;
+    color: rgb(41, 137, 216) !important;
+}
+
+.title-2mmhgH
+{
+    color: rgb(41, 137, 216) !important;
+}
+
+
+
+
+
+.typing-3eiiL_
+{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(91, 187, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
+}
+
+
+
+.channel-members-loading, .channel-members-loading > .member, .channel-members-loading > .heading
+{
+    background: none !important;
+}
+
+
+
+.cardPrimary-ZVL9Jr, .cardPrimaryEditable-2IQ7-V
+{
+    background:  rgba(91, 187, 255, 0.2) !important;
+    border: 1px solid rgba(91, 187, 255, 0.4) !important;
+}
+
+
+
+.barFill-18ABna
+{
+    background-color: rgb(41, 137, 216) !important;
+}
+.bar-2cFRGz
+{
+    background-color: rgb(1, 57, 136) !important;
+}
+
+
+
+.valueChecked-3Bzkbm
+{
+    background-color: rgb(41, 137, 216) !important;
+}
+
+
+
+.selected-eNoxEK
+{
+    background: rgb(41, 137, 216) !important;
+}
+.notSelected-PgwTMa:hover
+{
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(41, 137, 216, 0.4)) !important;
+}
+.notSelected-PgwTMa
+{
+    color: white !important;
+}
+
+
+
+.accountBtnInner-3zsU2z
+{
+    background-color:  rgb(41, 137, 216) !important;
+    border: 2px solid rgba(91, 187, 255) !important;
+}
+
+
+
+
+
+#user-profile-modal > .scroller-wrap, #user-profile-modal > .empty {
+    background: rgb(60, 60, 60) !important;
+}
+#user-profile-modal > .scroller-wrap > .guilds {
+    background: none !important;
+}
+.tab-bar-container {
+    background: rgb(41, 137, 216) !important;
+    border-color: rgb(121, 217, 255) !important;
+}
+.tab-bar-item {
+    color: rgb(121, 217, 255) !important;
+}
+.tab-bar-item.selected {
+    color: white !important;
+    border-color: white !important;
+}
+#user-profile-modal > .scroller-wrap > .guilds > .guild:hover {
+    background: linear-gradient(90deg, rgba(91, 187, 255, 0.6), rgba(0, 0, 0, 0)) !important;
+}
+#user-profile-modal > .header {
+    background: rgb(41, 137, 216) !important;
+}
+#user-profile-modal > .header:after {
+    background: none !important;
+}
+#user-profile-modal > .avatar-wrapper {
+    background-color: rgb(41, 137, 216) !important;
+}
+#user-profile-modal > .header > .header-info > .header-info-inner > .discord-tag, #user-profile-modal > .header > .header-info > .header-info-inner > .discord-tag > .discriminator, #user-profile-modal > .header > .header-info > .header-info-inner > .activity{
+    color: white !important;
+}
+
+
+@keyframes unread {
+    0%{opacity: 0.3;}
+    50%{opacity: 1;}
+    100%{opacity: 0.3;}
+}
+
+@keyframes mentions {
+    0%{border: 1px solid rgba(41, 137, 216, 0);}
+    10%{border: 1px solid rgb(41, 137, 216);}
+    20%{border: 1px solid rgb(51, 147, 226);}
+    30%{border: 1px solid rgb(81, 177, 255);}
+    40%{border: 1px solid rgb(101, 197, 255);}
+    50%{border: 1px solid rgba(101, 197, 255, 0);}
+    100%{border: 1px solid rgba(41, 137, 216, 0);}
+}
